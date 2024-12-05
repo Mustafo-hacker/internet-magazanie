@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Product</title>
+    <link rel="stylesheet" href="../add new files/add2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <h2>fastcart</h2>
+            </div>
+            <a class="a" href="../dashbord files/dashbord.html">Dashboard</a>
+            <a class="a" href="../order files/order.html">Orders</a>
+            <a class="a" href="../product admin files/productAdmin.html">Products</a>
+            <a class="a" href="#">Other</a>
+        </div>
+        <div class="main-content">
+            <h1>Add New Product</h1>
+            <form id="addProductForm">
+                <label for="productName">Product Name:</label>
+                <input type="text" id="productName" name="productName" required>
+                
+                <label for="productDescription">Description:</label>
+                <textarea id="productDescription" name="productDescription" required></textarea>
+                
+                <label for="productCategory">Category:</label>
+                <select class="productCategory" id="productCategory" name="productCategory" required>
+                    <option value="electronic">Electronics</option>
+                    <option value="products2">Products</option>
+                    <option value="lifestyle">lifestyle</option>
+                    <option value="medicine">medicine</option>
+                </select>
+ 
+                <label for="productPrice">Price:</label>
+                <input type="number" id="productPrice" name="productPrice" required>
+            
+                
+                <label for="productInventory">Inventory:</label>
+                <input type="number" id="productInventory" name="productInventory" required>
+                
+                <label for="productImage">Image:</label>
+                <input type="file" id="productImage" name="productImage" accept="image/*" required>
+                
+                <label for="productRating">Rating:</label>
+                <input type="text" id="productRating" name="productRating" step="0.1" min="0" max="5" required>
+                
+                <button type="submit">Save</button>
+            </form>
+        </div>
+    </div>
+    <script src="../add new files/add2.js"></script>
+</body>
+</html>

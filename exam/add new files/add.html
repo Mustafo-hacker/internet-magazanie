@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Order</title>
+    <link rel="stylesheet" href="./add.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <h2>fastcart</h2>
+            </div>
+            <a class="a" href="../dashbord files/dashbord.html">Dashboard</a>
+            <a class="a a1" href="../order files/order.html">Orders</a>
+            <a class="a" href="../product admin files/productAdmin.html">Products</a>
+            <a class="a" href="#">Other</a>
+        </div>
+        <div class="main-content">
+            <h1>Add Order</h1>
+            <form id="addOrderForm">
+                <label for="orderNumber">Order Number:</label>
+                <input type="text" id="orderNumber" name="orderNumber" required>
+                
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="customerName">Customer Name:</label>
+                <input type="text" id="customerName" name="customerName" required>
+                
+                <label for="paymentStatus">Payment Status:</label>
+                <select id="paymentStatus" name="paymentStatus" required>
+                    <option value="Paid">Paid</option>
+                    <option value="Pending">Pending</option>
+                </select>
+                
+                <label for="orderStatus">Order Status:</label>
+                <select id="orderStatus" name="orderStatus" required>
+                    <option value="Shipped">Shipped</option>
+                    <option value="Processing">Processing</option>
+                    <option value="Delivered">Delivered</option>
+                </select>
+                
+                <label for="totalAmount">Total Amount:</label>
+                <input type="text" id="totalAmount" name="totalAmount" required>
+                
+                <button type="submit">Save</button>
+            </form>
+        </div>
+    </div>
+    <script src="../add new files/add.js"></script>
+</body>
+</html>

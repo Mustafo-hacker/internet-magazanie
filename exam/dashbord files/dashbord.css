@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 1100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h2 {
+    margin: 0;
+}
+
+.a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #444;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.a:hover {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #44444480;
+    border-radius: 5px;
+    text-align: center;
+}
+.a1:hover{
+    color: white;
+    background-color: rgba(0, 0, 255, 0.574);
+}
+.a1{
+    color: white;
+    background-color: rgba(0, 0, 255, 0.574);
+}
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.metric {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    text-align: center;
+}
+
+.metric h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.metric p {
+    margin: 0;
+    font-size: 24px;
+    color: #007bff;
+}
+
+.charts {
+    display: flex;
+    gap: 20px;
+}
+
+.chart {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+.chart h3 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+.transactions, .top-products {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 43%;
+}
+.top-products{
+    margin-left: 50px;
+}
+.transactions h3, .top-products h3 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    color: gray;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+.canvas{
+    width: 100px;
+}
+.total{
+    display: flex;
+}

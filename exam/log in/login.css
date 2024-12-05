@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+.imgLogo{
+    width: 100%;
+}
+.main {
+    display: flex;
+    width: 100%;
+}
+
+.leftPart {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.leftPart h1 {
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.rightPart {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.loginForm h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.loginForm label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.loginForm input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.loginForm a {
+    display: block;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.loginForm a:hover {
+    text-decoration: underline;
+}
+
+.loginForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loginForm button:hover {
+    background-color: #0056b3;
+}

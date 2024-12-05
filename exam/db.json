@@ -1,0 +1,473 @@
+{
+  "transactions": [
+    {
+      "name": "Jagarnath S.",
+      "date": "24.05.2023",
+      "amount": "$714.97",
+      "status": "Paid",
+      "id": "3d5b"
+    },
+    {
+      "name": "Anand G.",
+      "date": "23.05.2023",
+      "amount": "$55.42",
+      "status": "Pending",
+      "id": "4a60"
+    },
+    {
+      "name": "Kartik S.",
+      "date": "20.05.2023",
+      "amount": "$102.45",
+      "status": "Paid",
+      "id": "319e"
+    },
+    {
+      "name": "Rakesh S.",
+      "date": "20.05.2023",
+      "amount": "$714.94",
+      "status": "Paid",
+      "id": "245e"
+    },
+    {
+      "name": "Abhishek P.",
+      "date": "20.05.2023",
+      "amount": "$57.02",
+      "status": "Paid",
+      "id": "7d22"
+    },
+    {
+      "name": "Jimmy P.",
+      "date": "20.05.2023",
+      "amount": "$57.02",
+      "status": "Paid",
+      "id": "9bc2"
+    }
+  ],
+  "topProducts": [
+    {
+      "name": "Men Grey Hoodie",
+      "price": "$49.90",
+      "unitsSold": 204,
+      "id": "99b1"
+    },
+    {
+      "name": "Women Striped T-Shirt",
+      "price": "$34.90",
+      "unitsSold": 155,
+      "id": "b1ad"
+    },
+    {
+      "name": "Men White T-Shirt",
+      "price": "$29.90",
+      "unitsSold": 145,
+      "id": "91db"
+    },
+    {
+      "name": "Women Red T-Shirt",
+      "price": "$39.90",
+      "unitsSold": 138,
+      "id": "1911"
+    },
+    {
+      "name": "Women blue T-Shirt",
+      "price": "$39.90",
+      "unitsSold": 138,
+      "id": "1824"
+    }
+  ],
+  "orders": [
+    {
+      "id": "2",
+      "orderNumber": "1002",
+      "date": "23.05.2023",
+      "customerName": "Anand G.",
+      "paymentStatus": "Pending",
+      "orderStatus": "Processing",
+      "totalAmount": "$55.42"
+    },
+    {
+      "id": "3",
+      "orderNumber": "1003",
+      "date": "20.05.2023",
+      "customerName": "Kartik S.",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "totalAmount": "$102.45"
+    },
+    {
+      "id": "4",
+      "orderNumber": "1004",
+      "date": "20.05.2023",
+      "customerName": "Rakesh S.",
+      "paymentStatus": "Paid",
+      "orderStatus": "Shipped",
+      "totalAmount": "$714.94"
+    },
+    {
+      "id": "5",
+      "orderNumber": "1005",
+      "date": "20.05.2023",
+      "customerName": "Abhishek P.",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "totalAmount": "$57.02"
+    }
+  ],
+  "salesItems": [
+    {
+      "id": "1",
+      "name": "HAVIT HV-992 Gamepad",
+      "image": "https://avatars.mds.yandex.net/i?id=dce026f4ada224ccd68a82c939dde18e4863737b-5192485-images-thumbs&n=13",
+      "price": "$120",
+      "originalPrice": "$160",
+      "description": "Ergonomic gamepad with dual vibration feedback for an immersive gaming experience.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": "2",
+      "name": "Playstation 5",
+      "image": "https://m.media-amazon.com/images/I/619BkvKW35L._SL1500_.jpg",
+      "price": "$550",
+      "originalPrice": "$860",
+      "description": "Black Playstation 5 for you and your family, offering next-gen gaming performance.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": "3",
+      "name": "IPS LCD Gaming Monitor",
+      "image": "https://m.media-amazon.com/images/I/81Zt42ioCgL._AC_SL1500_.jpg",
+      "price": "$370",
+      "originalPrice": "$400",
+      "description": "27-inch IPS LCD monitor with 144Hz refresh rate for smooth and vibrant visuals.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": "4",
+      "name": "S-Series Comfort Chair",
+      "image": "https://avatars.mds.yandex.net/i?id=0f0647e479efcf480e3453e874245fc7-5256838-images-thumbs&n=13",
+      "price": "$375",
+      "originalPrice": "$400",
+      "description": "Ergonomic office chair with lumbar support and adjustable height for maximum comfort.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": "5",
+      "name": "S-Series Comfort Chair",
+      "image": "https://avatars.mds.yandex.net/i?id=aa1a96b39561cbceff7d59cab2d8503c-4580368-images-thumbs&n=13",
+      "price": "$375",
+      "originalPrice": "$500",
+      "description": "Ergonomic office chair with lumbar support and adjustable height for maximum comfort.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": "6",
+      "name": "Winter Coat",
+      "image": "https://avatars.mds.yandex.net/i?id=613b94628bbfe7662c7d21e242574b417372d6ff-6222399-images-thumbs&n=13",
+      "price": "$175",
+      "originalPrice": "$300",
+      "description": "Warm and stylish winter coat with a detachable hood and multiple pockets.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": "7",
+      "name": "Winter Coat",
+      "image": "https://avatars.mds.yandex.net/i?id=876f37abe258014a59af588f1285c092bd81b02c-8437205-images-thumbs&n=13",
+      "price": "$175",
+      "originalPrice": "$300",
+      "description": "Warm and stylish winter coat with a detachable hood and multiple pockets.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": "8",
+      "name": "Winter Coat",
+      "image": "https://avatars.mds.yandex.net/i?id=99a2ee1d34f57e5eec231f6d15af8820bf3875a9-5501647-images-thumbs&n=13",
+      "price": "$175",
+      "originalPrice": "$300",
+      "description": "Warm and stylish winter coat with a detachable hood and multiple pockets.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": "9",
+      "name": "iPhone 13",
+      "image": "https://m.media-amazon.com/images/I/71gm8v4uPBL._AC_SL1500_.jpg",
+      "price": "$999",
+      "originalPrice": "$1099",
+      "description": "Latest iPhone model with A15 Bionic chip, 5G support, and advanced camera system.",
+      "rating": "★★★★★"
+    },
+    {
+      "id": "10",
+      "name": "Samsung Galaxy S21",
+      "image": "https://avatars.mds.yandex.net/i?id=015bfd15eb2f321fbe91766335d34b48a4acf009-9225598-images-thumbs&n=13",
+      "price": "$799",
+      "originalPrice": "$999",
+      "description": "High-performance smartphone with Exynos 2100 processor and stunning AMOLED display.",
+      "rating": "★★★★★"
+    },
+    {
+      "id": "11",
+      "name": "Bluetooth Headphones",
+      "image": "https://m.media-amazon.com/images/I/61kWB+uzR2L._AC_SL1500_.jpg",
+      "price": "$150",
+      "originalPrice": "$200",
+      "description": "Wireless Bluetooth headphones with noise cancellation and long battery life.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": "12",
+      "name": "Smartwatch",
+      "image": "https://m.media-amazon.com/images/I/71rhrO49SmL._AC_SL1500_.jpg",
+      "price": "$250",
+      "originalPrice": "$300",
+      "description": "Feature-packed smartwatch with fitness tracking, heart rate monitoring, and GPS.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": "13",
+      "name": "Leather Jacket",
+      "image": "https://avatars.mds.yandex.net/i?id=1993db7a70063c272d1e9c5b15c3867bb3bb0988-9098303-images-thumbs&n=13",
+      "price": "$200",
+      "originalPrice": "$350",
+      "description": "Stylish leather jacket with a classic design and comfortable fit.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": "14",
+      "name": "Running Shoes",
+      "image": "https://avatars.mds.yandex.net/i?id=50c1da9f52f7964bab46b65b2cb1682af9c7bbc5-5231932-images-thumbs&n=13",
+      "price": "$120",
+      "originalPrice": "$180",
+      "description": "Lightweight and durable running shoes with excellent cushioning and support.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": "15",
+      "name": "Backpack",
+      "image": "https://avatars.mds.yandex.net/i?id=b56faea5fda5de5a043ecac117859a44b5eb1aab-7552222-images-thumbs&n=13",
+      "price": "$80",
+      "originalPrice": "$120",
+      "description": "Spacious and durable backpack with multiple compartments and ergonomic design.",
+      "rating": "★★★★☆"
+    }
+  ],
+  "products2": [
+    {
+      "name": "Jr. Zoom Soccer Cleats",
+      "image": "https://avatars.mds.yandex.net/i?id=c6d01f58dac368fd62dba14c070b976bf8f4c889e93823b5-13201380-images-thumbs&n=13",
+      "price": "30",
+      "rating": "★★★★☆",
+      "description": "Durable and comfortable soccer cleats for young athletes.",
+      "id": "7a87"
+    },
+    {
+      "name": "GP11 Shooter USB Gamepad",
+      "image": "https://avatars.mds.yandex.net/i?id=b28d54075abf1f285f9ad053c87f1ba18ba63541-9150622-images-thumbs&n=13",
+      "price": "60",
+      "rating": "★★★★☆",
+      "description": "Ergonomic gamepad with precise controls for an enhanced gaming experience.",
+      "id": "a4fa"
+    },
+    {
+      "name": "Curology Product Set",
+      "image": "https://avatars.mds.yandex.net/i?id=c47da504f000154f9a6688f591976621a41af844-9228969-images-thumbs&n=13",
+      "price": "40",
+      "rating": "★★★★☆",
+      "description": "Complete skincare set for clear and healthy skin.",
+      "id": "173b"
+    },
+    {
+      "name": "Quilted Satin Jacket",
+      "image": "https://avatars.mds.yandex.net/i?id=721255d31aa26dd2e33b5d90dcbe3b1dd631bd83-5023133-images-thumbs&n=13",
+      "price": "120",
+      "rating": "★★★★☆",
+      "description": "Stylish and warm quilted satin jacket for a fashionable look.",
+      "id": "f98d"
+    },
+    {
+      "id": "bca5",
+      "name": "Smartphone",
+      "description": "Latest model smartphone with advanced features and sleek design.",
+      "category": "Electronics",
+      "price": 999,
+      "inventory": 50,
+      "rating": "★★★★★",
+      "image": "https://avatars.mds.yandex.net/i?id=330ae3273d133642f469369e738cdd38277b7c1fbc0b5629-12473620-images-thumbs&n=13"
+    },
+    {
+      "id": "cda6",
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with high-quality sound and long battery life.",
+      "category": "Electronics",
+      "price": 75,
+      "inventory": 100,
+      "rating": "★★★★☆",
+      "image": "https://avatars.mds.yandex.net/i?id=c65786750561eabc0c13fc0fba0e968c29252a92-13605392-images-thumbs&n=13"
+    }
+  ],
+  "electronic": [
+    {
+      "name": "Samsung Galaxy S21",
+      "image": "https://avatars.mds.yandex.net/i?id=48b20c441c41ab59ebaec0837ce3fc17d3bec32f38b3e1b5-4479582-images-thumbs&n=13",
+      "price": "799",
+      "rating": "★★★★★",
+      "id": "8",
+      "description": "High-performance smartphone with Exynos 2100 processor and stunning AMOLED display."
+    },
+    {
+      "name": "Sony WH-1000XM4 Headphones",
+      "image": "https://avatars.mds.yandex.net/i?id=a6479ebd40138a580c48df637ebed0136d3c7333296093b5-9008017-images-thumbs&n=13",
+      "price": "350",
+      "rating": "★★★★★",
+      "id": "9",
+      "description": "Industry-leading noise-canceling headphones with exceptional sound quality."
+    },
+    {
+      "name": "Apple MacBook Pro",
+      "image": "https://avatars.mds.yandex.net/i?id=aeef097eaeca5bbe5fa0f2c460befe95491a6a38-4872385-images-thumbs&n=13",
+      "price": "1299",
+      "rating": "★★★★★",
+      "id": "10",
+      "description": "Powerful laptop with M1 chip, Retina display, and long battery life."
+    },
+    {
+      "name": "Dell XPS 13",
+      "image": "https://avatars.mds.yandex.net/i?id=7e56a2b5ce67c581d3dca2df865642c1e956dc3a-12011805-images-thumbs&n=13",
+      "price": "999",
+      "rating": "★★★★☆",
+      "id": "11",
+      "description": "Compact and powerful laptop with InfinityEdge display and fast performance."
+    },
+    {
+      "name": "GoPro HERO9 Black",
+      "image": "https://avatars.mds.yandex.net/i?id=e01703c8468a5a895b8b5bf67718ada0eb15a699004100cc-5523609-images-thumbs&n=13",
+      "price": "399",
+      "rating": "★★★★☆",
+      "id": "12",
+      "description": "Versatile action camera with 5K video, 20MP photos, and HyperSmooth stabilization."
+    },
+    {
+      "name": "Amazon Echo Dot (4th Gen)",
+      "image": "https://avatars.mds.yandex.net/i?id=401d6b21e697e3c5d55b29a4af39d94619d3e0f8-4499319-images-thumbs&n=13",
+      "price": "50",
+      "rating": "★★★★☆",
+      "id": "13",
+      "description": "Smart speaker with Alexa, perfect for hands-free control of your smart home."
+    },
+    {
+      "name": "Fitbit Charge 4",
+      "image": "https://avatars.mds.yandex.net/i?id=7786db6c908e2bf21818500a2cf1e497c694d94d-11843429-images-thumbs&n=13",
+      "price": "150",
+      "rating": "★★★★☆",
+      "id": "14",
+      "description": "Advanced fitness tracker with built-in GPS, heart rate monitoring, and sleep tracking."
+    }
+  ],
+  "lifestyle": [
+    {
+      "name": "Modern Sectional Sofa",
+      "image": "https://avatars.mds.yandex.net/i?id=70e88512eb3d9283a06de01a954fc2e3ecc1d162-4578267-images-thumbs&n=13",
+      "price": "1200",
+      "rating": "★★★★★",
+      "id": "18",
+      "description": "Spacious and comfortable sectional sofa with a modern design."
+    },
+    {
+      "name": "Recliner Chair",
+      "image": "https://avatars.mds.yandex.net/i?id=459a5295c691c6006113f747c5c535cc509e94a8-12480075-images-thumbs&n=13",
+      "price": "450",
+      "rating": "★★★★☆",
+      "id": "19",
+      "description": "Luxurious recliner chair with adjustable settings for ultimate relaxation."
+    },
+    {
+      "name": "Dining Table Set",
+      "image": "https://avatars.mds.yandex.net/i?id=0afc4ebb7e4cf18dc4c49a7139df56196edb4b07-10870632-images-thumbs&n=13",
+      "price": "800",
+      "rating": "★★★★☆",
+      "id": "20",
+      "description": "Elegant dining table set with six chairs, perfect for family gatherings."
+    },
+    {
+      "name": "Bookshelf",
+      "image": "https://avatars.mds.yandex.net/i?id=6cfdd7703317ed10bb7ef1db1821106840149c0f-9226569-images-thumbs&n=13",
+      "price": "200",
+      "rating": "★★★★☆",
+      "id": "21",
+      "description": "Sturdy and stylish bookshelf with multiple shelves for ample storage."
+    },
+    {
+      "name": "Coffee Table",
+      "image": "https://avatars.mds.yandex.net/i?id=a3741812fd13e167fd2c250ad04339bb17b62685-4825925-images-thumbs&n=13",
+      "price": "150",
+      "rating": "★★★★☆",
+      "id": "22",
+      "description": "Modern coffee table with a sleek design and storage space."
+    },
+    {
+      "name": "Bed Frame",
+      "image": "https://avatars.mds.yandex.net/i?id=bc547acc45ca0f6569514da476711f4d6ca1d8a6-7549266-images-thumbs&n=13",
+      "price": "500",
+      "rating": "★★★★☆",
+      "id": "23",
+      "description": "Durable bed frame with a contemporary design and ample support."
+    },
+    {
+      "name": "Office Desk",
+      "image": "https://avatars.mds.yandex.net/i?id=9e413d7ec2d0bfc408f2d6b3cea1bba45689cbfb-7571629-images-thumbs&n=13",
+      "price": "300",
+      "rating": "★★★★☆",
+      "id": "24",
+      "description": "Functional office desk with a spacious work surface and storage drawers."
+    }
+  ],
+  "medicine": [
+    {
+      "name": "Paracetamol Tablets",
+      "image": "https://avatars.mds.yandex.net/i?id=752998e5bf86d187aabdb9838e146d2fbe84e098d0a5fedb-10274729-images-thumbs&n=13",
+      "price": "10",
+      "rating": "★★★★★",
+      "id": "17",
+      "description": "Effective pain relief and fever reducer."
+    },
+    {
+      "name": "Ibuprofen Tablets",
+      "image": "https://avatars.mds.yandex.net/i?id=4f145a037c494c9156a2b48a07b8ec18d74ce051e2cbbe53-12928271-images-thumbs&n=13",
+      "price": "15",
+      "rating": "★★★★☆",
+      "id": "18",
+      "description": "Nonsteroidal anti-inflammatory drug for pain relief and inflammation reduction."
+    },
+    {
+      "name": "Aspirin Tablets",
+      "image": "https://avatars.mds.yandex.net/i?id=d29bdbdbdaf9e1ab353294028d21b899dcdb22dd-8984683-images-thumbs&n=13",
+      "price": "12",
+      "rating": "★★★★☆",
+      "id": "19",
+      "description": "Pain reliever and anti-inflammatory medication."
+    },
+    {
+      "name": "Vitamin C Tablets",
+      "image": "https://avatars.mds.yandex.net/i?id=4f1e4b1e1953284636276ca10a3fcaf92c0c1d8a-10907882-images-thumbs&n=13",
+      "price": "8",
+      "rating": "★★★★☆",
+      "id": "20",
+      "description": "Boosts immune system and promotes overall health."
+    },
+    {
+      "name": "Antibiotic Capsules",
+      "image": "https://avatars.mds.yandex.net/i?id=2a00000179f180fe1b494ed69248f3f284de-4120950-images-thumbs&n=13",
+      "price": "25",
+      "rating": "★★★★☆",
+      "id": "21",
+      "description": "Effective treatment for bacterial infections."
+    },
+    {
+      "name": "Multivitamin Tablets",
+      "image": "https://avatars.mds.yandex.net/i?id=4ccb47465ec9d3e9cff079732b08e6280deafd5c-10703429-images-thumbs&n=13",
+      "price": "20",
+      "rating": "★★★★☆",
+      "id": "22",
+      "description": "Comprehensive daily multivitamin for overall health and wellness."
+    }
+  ]
+}

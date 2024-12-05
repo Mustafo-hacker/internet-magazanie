@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo h2 {
+    margin: 0;
+}
+
+.a {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #444;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.a1 {
+    color: white;
+    background-color: blue;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+.checkbox{
+    width: 25px;
+    height: 25px;
+}
+.size-6 {
+    width: 40px;
+    height: 40px;
+    margin-left: 1060px;
+}
+.search {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.btnAdd {
+    background-color: #2563EB;
+    color: white;
+    padding: 15px 30px;
+    font-size: 17px;
+    margin-left: 1000px;
+    margin-bottom: 80px;
+    margin-top: -180px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+}
+.size-8{
+    width: 25px;
+    height: 25px;
+    color: blue;
+}
+.size-9{
+    width: 25px;
+    height: 25px;
+    color: red;
+}
+.selectProduct{
+    width: 25px;
+    height: 25px;
+}
+.surat1{
+    height: 80px;
+    height: 80px;
+}

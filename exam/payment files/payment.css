@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    padding: 10px 20px;
+}
+
+.top-nav {
+    display: flex;
+    margin-left: 400px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.top-nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    margin-left: 20px;
+}
+
+.size-6 {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.search {
+    padding: 6px 25px;
+    text-align: start;
+    border-radius: 3px;
+    margin-top: -5px;
+    margin-left: 180px;
+    margin-right: 50px;
+    background-color: rgba(128, 128, 128, 0.081);
+    font-size: 15px;
+    border: none;
+}
+.icons {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.billing-details, .order-summary {
+    width: 48%;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+.inp,
+input[type="tel"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.order-summary form {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-summary form label {
+    margin-top: 10px;
+}
+
+.order-summary form input[type="text"] {
+    margin-top: 5px;
+}
+
+.order-summary form button {
+    align-self: flex-start;
+}

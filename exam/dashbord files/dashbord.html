@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../dashbord files/dashbord.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <h2>fastcart</h2>
+            </div>
+            <a class="a a1" href="../dashbord files/dashbord.html">Dashboard</a>
+            <a class="a" href="../order files/order.html">Orders</a>
+            <a class="a" href="../product admin files/productAdmin.html">Products</a>
+            <a class="a" href="#">Other</a>
+        </div>
+        <div class="main-content">
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="dashboard">
+                <div class="metrics">
+                    <div class="metric">
+                        <h3>Sales</h3>
+                        <p>$152K</p>
+                    </div>
+                    <div class="metric">
+                        <h3>Cost</h3>
+                        <p>$99.7K</p>
+                    </div>
+                    <div class="metric">
+                        <h3>Profit</h3>
+                        <p>$32.1K</p>
+                    </div>
+                </div>
+                <div class="charts">
+                    <div class="chart">
+                        <h3>Sales Revenue</h3>
+                        <img src="./div.MuiPaper-root.png" alt="">
+                    </div>
+                    <div class="chart">
+                        <h3>Top Selling Products</h3>
+                        <ul>
+                            <li>Healthcare Ethology in Accessories: 13,153</li>
+                            <li>Healthcare Ethology in Accessories: 13,153</li>
+                            <li>Healthcare Ethology in Accessories: 13,153</li>
+                            <li>Healthcare Ethology in Accessories: 13,153</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="total">
+                    <div class="transactions">
+                        <h3>Recent Transactions</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Date</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody class="transactions-body">
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="top-products">
+                        <h3>Top Products by Units Sold</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Price</th>
+                                    <th>Units Sold</th>
+                                </tr>
+                            </thead>
+                            <tbody class="top-products-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../dashbord files/dashbord.js"></script>
+</body>
+</html>
